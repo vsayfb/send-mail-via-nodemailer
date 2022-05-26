@@ -1,0 +1,31 @@
+{
+  "name": "send-gmail-via-nodemailer",
+  "version": "1.0.0",
+  "description": "Send gmail using nodemailer at node.js",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsayfb/send-mail-via-nodemailer.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Send",
+    "Gmail",
+    "Nodemailer"
+  ],
+  "author": "vsay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsayfb/send-mail-via-nodemailer/issues"
+  },
+  "homepage": "https://github.com/vsayfb/send-mail-via-nodemailer#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "googleapis": "^100.0.0",
+    "nodemailer": "^6.7.5"
+  }
+}
